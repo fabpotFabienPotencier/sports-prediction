@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Prediction Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Live Sports Predictions</h1>
+            <div class="sport-selector">
+                <button class="sport-btn active" data-sport="soccer">Soccer</button>
+                <button class="sport-btn" data-sport="basketball">Basketball</button>
+                <button class="sport-btn" data-sport="tennis">Tennis</button>
+            </div>
+        </header>
+        
+        <main>
+            <div class="matches-container">
+                <!-- Live matches will be dynamically inserted here -->
+            </div>
+            
+            <div class="predictions-container">
+                <!-- Predictions will be dynamically inserted here -->
+            </div>
+        </main>
+    </div>
+    
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
